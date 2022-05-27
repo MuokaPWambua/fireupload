@@ -6,6 +6,6 @@ an npm package for resizing and uploading images to firebase that returns an ima
   - npm i fireupload
   - npm i firebase
 # How to use
-  - import fireUpload from fireUpload
+  - const fireUpload = require(fireupload)
   - const imageUrl = fireUpload(file, firebaseConfig, width, height)
   - console.log(imageUrl)
