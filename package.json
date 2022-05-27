@@ -7,10 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "fireUpload",
-    "firebase",
-    "firebaseresize",
-    "downloadUrl"
+    "fireupload",
+    "firebase uplaod",
+    "firebase resize",
+    "firebase downloadUrl",
+    "resize",
+    "packages",
+    "npm"
   ],
   "author": "muoka",
   "license": "ISC"
