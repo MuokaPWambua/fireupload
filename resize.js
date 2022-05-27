@@ -24,5 +24,5 @@ const resize = (file, width=320, height=320)=> new Promise(resolve => {
 
 })
 
-export default resize
+module.exports = resize
 

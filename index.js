@@ -1,6 +1,6 @@
-const resize = require ('./resize')
-const firebase = require ('firebase/compat/app');
-require ("firebase/compat/storage")
+import firebase from 'firebase/compat/app';
+import "firebase/compat/storage";
+import resize from './resize';
 
 
 const fireUpload = async (file, config, width=320, height=320) => {
