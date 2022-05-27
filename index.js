@@ -1,9 +1,9 @@
-import resize from './resize'
-import firebase from 'firebase/compat/app';
-import "firebase/compat/storage"
+const resize = require ('./resize')
+const firebase = require ('firebase/compat/app');
+require ("firebase/compat/storage")
 
 
-const upload = async (file, config, width=320, height=320) => {
+const fireUpload = async (file, config, width=320, height=320) => {
 
     if(file == null) alert('file required');
 
@@ -21,4 +21,4 @@ const upload = async (file, config, width=320, height=320) => {
     return await uploadUrl()
 }
 
-export default upload
+module.exports = fireUpload
