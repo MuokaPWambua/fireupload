@@ -1,0 +1,17 @@
+{
+  "name": "fireupload",
+  "version": "1.0.0",
+  "description": "fireUpload resizes and returns a firebase download url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fireUpload",
+    "firebase",
+    "firebaseresize",
+    "downloadUrl"
+  ],
+  "author": "muoka",
+  "license": "ISC"
+}
