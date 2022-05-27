@@ -21,4 +21,4 @@ const fireUpload = async (file, config, width=320, height=320) => {
     return await uploadUrl()
 }
 
-module.exports = fireUpload
+export default fireUpload
