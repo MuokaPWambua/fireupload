@@ -1,6 +1,6 @@
 {
   "name": "fireupload",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "fireUpload resizes and returns a firebase download url",
   "main": "index.js",
   "scripts": {
